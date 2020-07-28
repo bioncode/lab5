@@ -1,9 +1,10 @@
 <%- include('partials/header.ejs') %>
     <body>
         
-        <form action="/search">
-            <input type="text" placeholder="Type keyword" name="keyword"/>
-            <button>Search</button>
+        <form class="mt-5" action="/search">
+            <input class="search-input" type="text" placeholder="Type keyword" name="keyword"/>
+            <br><br>
+            <button class="search-button brn btn-primary">Search</button>
             <a id="favLink" href="/getKeywords"> See Favorites </a>
         </form>
         <hr>
